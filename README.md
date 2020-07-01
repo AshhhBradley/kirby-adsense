@@ -40,7 +40,7 @@ Alternatively, you can install it with composer: ```composer require ashhhbradle
 
 ## 2. Authentication
 
-In order for this plugin to fetch data from the Google AdSense API, some credentials will need to be provided. You can follow a walk-through to learn how to create them here: [Wiki](wiki).
+In order for this plugin to fetch data from the Google AdSense API, some credentials will need to be provided. You can follow a walk-through to learn how to create them here: [Wiki](https://github.com/AshhhBradley/kirby-adsense/wiki).
 
 <br>
 
