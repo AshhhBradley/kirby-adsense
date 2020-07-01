@@ -1,0 +1,39 @@
+.analytics-overview-bottom {
+	display: flex;
+	margin-top: 6px;
+	.last-updated {
+		margin-left: auto;
+		span {
+			font-size: .875rem;
+			font-weight: 600;
+			letter-spacing: -.2px;
+			color: #000;
+			line-height: 1.25rem;
+			vertical-align: middle;
+		}
+		::selection {
+		  background-color: unset !important;
+		}
+	}
+	.connected .k-button-text {
+		opacity: unset;
+	}
+	.connect-button .connected,
+	.last-updated span {
+	  opacity: 0.25;
+	}
+	@include respond-to('smaller-480') {
+		display: inline-flex;
+		flex-direction: column-reverse;
+		.last-updated {
+			padding: 5px 0;
+		}
+	}
+}
+.analytics-overview-error {
+	display: flex;
+	margin-top: 10px;
+	.k-box {
+		width: 100%;
+	}
+}

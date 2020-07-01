@@ -1,0 +1,16 @@
+{
+    "name": "ashhhbradley/kirby-adsense",
+    "description": "Display your Google AdSense analytics directly within the Kirby 3 panel.",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ash Bradley",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1",
+        "google/apiclient": "^2.0"
+    }
+}

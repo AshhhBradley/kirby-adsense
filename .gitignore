@@ -1,0 +1,8 @@
+.DS_Store
+/node_modules
+.cache
+/vendor
+/reports
+/auth
+package-lock.json
+composer.lock

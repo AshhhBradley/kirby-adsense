@@ -1,0 +1,90 @@
+.analytics-overview-top {
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	display: inline-flex;
+	width: 100%;
+	.selection {
+		display: flex;
+		width: auto;
+	}
+	.scroll {
+	  white-space: nowrap;
+	  overflow-x: auto;
+	  -webkit-overflow-scrolling: touch;
+	  -ms-overflow-style: -ms-autohiding-scrollbar;
+	}
+	.analytics-date-range {
+		font-weight: 600;
+		padding-bottom: 2px;
+		margin-bottom: 10px;
+		opacity: 0.3;
+		cursor: pointer;
+		transition: opacity 0.2s ease-out;
+		&:not(:last-child) {
+			margin-right: 12px;
+		}
+		&.active, &:hover {
+			opacity: 1;
+		}
+		&.active {
+			border-bottom: 1px solid black;
+		}
+	}
+	.refresh-button-container {
+		width: auto;
+		min-width: 70px;
+		text-align: end;
+		margin-left: auto;
+		.refresh-button {
+			opacity: 1;
+			transition: opacity 0.2s ease-out;
+			.k-button-text {
+				opacity: unset;
+			}
+		}
+		.refresh-button:focus,
+		.refresh-button:hover {
+			opacity: .6;
+			transition: opacity 0.2s ease-out;
+		}
+		.k-dropdown {
+			top: -3px;
+		}
+		.k-dropdown-content {
+			top: 22px;
+			.k-button-text {
+				font-weight: unset;
+			}
+			::selection {
+			  background-color: unset !important;
+			}
+		}
+		.refresh-prompt .k-text {
+			text-align: center;
+			text-transform: none;
+			font-size: initial;
+		}
+	}
+	@include respond-to('smaller-720') {
+		.selection {
+			margin-bottom: 5px;
+		}
+		.refresh-button-container {
+			min-width: 20px;
+			padding: 0 15px;
+			.refresh-button .k-button-text {
+				display: none;
+			}
+			.k-dropdown-content {
+				right: -20px;
+				top: 30px;
+			}
+		}
+	}
+	@include respond-to('smaller-480') {
+		margin-bottom: -10px;
+		.analytics-date-range {
+			margin-bottom: 10px;
+		}
+	}
+}
