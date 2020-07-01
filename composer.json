@@ -1,5 +1,5 @@
 {
-    "name": "ashhhbradley/kirby-adsense",
+    "name": "ashhhbradley/adsense",
     "description": "Display your Google AdSense analytics directly within the Kirby 3 panel.",
     "type": "kirby-plugin",
     "license": "MIT",
