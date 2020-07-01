@@ -2,6 +2,8 @@
 
 This plugin will display your Google AdSense metrics for a range of dimensions directly from within the Kirby 3 panel.
 
+![Screenshot](https://user-images.githubusercontent.com/8355430/86273097-9e7b7b00-bbc7-11ea-81d1-d84aa238274e.png)
+
 <br/>
 
 ## Overview
