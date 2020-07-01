@@ -30,9 +30,11 @@ This plugin will display your Google AdSense metrics for a range of dimensions d
 
 ## 1. Installation
 
-Download and copy this repository to ```/site/plugins/adsense```
-
-Alternatively, you can install it with composer: ```composer require ashhhbradley/adsense```
+Installation via Composer
+``` 
+composer require ashhhbradley/adsense
+```
+This will install the plugin along with it's dependencies at `/site/plugins/adsense`
 
 > Note: If you have adblock installed you may recieve a failed to fetch error since it will block urls containing the word adsense. To fix this either disable adblock or add `@@||*/api/plugin/adsense/$xmlhttprequest` to your filters.
 
